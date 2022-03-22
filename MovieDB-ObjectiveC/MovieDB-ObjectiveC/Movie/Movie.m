@@ -1,13 +1,14 @@
 //
-//  ViewController.h
+//  Movie.m
 //  MovieDB-ObjectiveC
 //
 //  Created by Willian Magnum Albeche on 22/03/22.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Movie.h"
+@implementation Movie
 
-@interface ViewController : UIViewController
 
 
 @end
