@@ -7,4 +7,13 @@
 
 #import <Foundation/Foundation.h>
 #import "DetailsViewController.h"
-//@interface DetailsViewController : UIViewController
+
+@interface DetailsViewController ()
+
+@end
+
+@implementation DetailsViewController 
+
+
+
+@end

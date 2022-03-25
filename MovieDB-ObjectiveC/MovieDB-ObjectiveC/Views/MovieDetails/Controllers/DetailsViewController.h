@@ -7,8 +7,8 @@
 
 #ifndef DetailsViewController_h
 #define DetailsViewController_h
+#import <UIKit/UIKit.h>
+@interface DetailsViewController : UIViewController
 
-//@interface DetailsViewController : UIViewController
-//
-//@end
+@end
 #endif /* DetailsViewController_h */

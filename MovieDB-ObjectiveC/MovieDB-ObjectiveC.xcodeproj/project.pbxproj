@@ -16,6 +16,12 @@
 		CD3F095127EA4250007F3D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F095027EA4250007F3D10 /* main.m */; };
 		CD3F095827EA44A1007F3D10 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F095727EA44A1007F3D10 /* DetailsViewController.m */; };
 		CD3F095E27EA4B82007F3D10 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F095D27EA4B82007F3D10 /* Movie.m */; };
+		CD4CA57627EBC67C0029DFB2 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CA57527EBC67C0029DFB2 /* TableViewCell.m */; };
+		CD4CA57827ECD9D90029DFB2 /* Genre.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CA57727ECD9D90029DFB2 /* Genre.m */; };
+		CD4CA57F27ECE2D90029DFB2 /* TableViewCellTitleDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CA57E27ECE2D90029DFB2 /* TableViewCellTitleDetails.m */; };
+		CD4CA58327ECE5B70029DFB2 /* TableViewCellOverViewDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CA58227ECE5B70029DFB2 /* TableViewCellOverViewDetails.m */; };
+		CD4CA58827ECEBEA0029DFB2 /* Api.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CA58727ECEBEA0029DFB2 /* Api.m */; };
+		CD4CA58E27ECF20E0029DFB2 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CA58D27ECF20E0029DFB2 /* Parser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,19 @@
 		CD3F095927EA44BC007F3D10 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
 		CD3F095D27EA4B82007F3D10 /* Movie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 		CD3F095F27EA4B94007F3D10 /* Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		CD4CA57527EBC67C0029DFB2 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		CD4CA57727ECD9D90029DFB2 /* Genre.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Genre.m; sourceTree = "<group>"; };
+		CD4CA57927ECD9E70029DFB2 /* Genre.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Genre.h; sourceTree = "<group>"; };
+		CD4CA57A27ECDD060029DFB2 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		CD4CA57E27ECE2D90029DFB2 /* TableViewCellTitleDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellTitleDetails.m; sourceTree = "<group>"; };
+		CD4CA58027ECE2FE0029DFB2 /* TableViewCellTitleDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCellTitleDetails.h; sourceTree = "<group>"; };
+		CD4CA58227ECE5B70029DFB2 /* TableViewCellOverViewDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellOverViewDetails.m; sourceTree = "<group>"; };
+		CD4CA58427ECE61F0029DFB2 /* TableViewCellOverViewDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCellOverViewDetails.h; sourceTree = "<group>"; };
+		CD4CA58727ECEBEA0029DFB2 /* Api.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Api.m; sourceTree = "<group>"; };
+		CD4CA58927ECEBF50029DFB2 /* Api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Api.h; sourceTree = "<group>"; };
+		CD4CA58C27ECEE980029DFB2 /* ApiDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiDelegate.h; sourceTree = "<group>"; };
+		CD4CA58D27ECF20E0029DFB2 /* Parser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		CD4CA58F27ECF21C0029DFB2 /* Parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,14 +86,13 @@
 		CD3F093D27EA424F007F3D10 /* MovieDB-ObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
-				CD3F095B27EA4B27007F3D10 /* Movie */,
-				CD3F095727EA44A1007F3D10 /* DetailsViewController.m */,
-				CD3F095927EA44BC007F3D10 /* DetailsViewController.h */,
+				CD4CA58627ECEBA10029DFB2 /* ApiRequest */,
+				CD3F095B27EA4B27007F3D10 /* Model */,
+				CD4CA59027ECF2680029DFB2 /* Views */,
 				CD3F093E27EA424F007F3D10 /* AppDelegate.h */,
 				CD3F093F27EA424F007F3D10 /* AppDelegate.m */,
 				CD3F094127EA424F007F3D10 /* SceneDelegate.h */,
 				CD3F094227EA424F007F3D10 /* SceneDelegate.m */,
-				CD3F095A27EA48A6007F3D10 /* Controller */,
 				CD3F094727EA424F007F3D10 /* Main.storyboard */,
 				CD3F094A27EA4250007F3D10 /* Assets.xcassets */,
 				CD3F094C27EA4250007F3D10 /* LaunchScreen.storyboard */,
@@ -93,13 +111,91 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		CD3F095B27EA4B27007F3D10 /* Movie */ = {
+		CD3F095B27EA4B27007F3D10 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				CD3F095D27EA4B82007F3D10 /* Movie.m */,
 				CD3F095F27EA4B94007F3D10 /* Movie.h */,
+				CD4CA57727ECD9D90029DFB2 /* Genre.m */,
+				CD4CA57927ECD9E70029DFB2 /* Genre.h */,
 			);
-			path = Movie;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD3F096027EB947D007F3D10 /* MovieDetails */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CA57B27ECE02B0029DFB2 /* Controllers */,
+				CD4CA58127ECE4FF0029DFB2 /* TableViewCellTitleDetails */,
+				CD4CA58527ECE6290029DFB2 /* TableViewCellOverViewDetails */,
+			);
+			path = MovieDetails;
+			sourceTree = "<group>";
+		};
+		CD4CA57227EBC5ED0029DFB2 /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CA57427EBC63F0029DFB2 /* CellsControlers */,
+				CD3F095A27EA48A6007F3D10 /* Controller */,
+			);
+			path = MovieList;
+			sourceTree = "<group>";
+		};
+		CD4CA57427EBC63F0029DFB2 /* CellsControlers */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CA57527EBC67C0029DFB2 /* TableViewCell.m */,
+				CD4CA57A27ECDD060029DFB2 /* TableViewCell.h */,
+			);
+			path = CellsControlers;
+			sourceTree = "<group>";
+		};
+		CD4CA57B27ECE02B0029DFB2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F095727EA44A1007F3D10 /* DetailsViewController.m */,
+				CD3F095927EA44BC007F3D10 /* DetailsViewController.h */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CD4CA58127ECE4FF0029DFB2 /* TableViewCellTitleDetails */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CA57E27ECE2D90029DFB2 /* TableViewCellTitleDetails.m */,
+				CD4CA58027ECE2FE0029DFB2 /* TableViewCellTitleDetails.h */,
+			);
+			path = TableViewCellTitleDetails;
+			sourceTree = "<group>";
+		};
+		CD4CA58527ECE6290029DFB2 /* TableViewCellOverViewDetails */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CA58227ECE5B70029DFB2 /* TableViewCellOverViewDetails.m */,
+				CD4CA58427ECE61F0029DFB2 /* TableViewCellOverViewDetails.h */,
+			);
+			path = TableViewCellOverViewDetails;
+			sourceTree = "<group>";
+		};
+		CD4CA58627ECEBA10029DFB2 /* ApiRequest */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CA58727ECEBEA0029DFB2 /* Api.m */,
+				CD4CA58927ECEBF50029DFB2 /* Api.h */,
+				CD4CA58C27ECEE980029DFB2 /* ApiDelegate.h */,
+				CD4CA58D27ECF20E0029DFB2 /* Parser.m */,
+				CD4CA58F27ECF21C0029DFB2 /* Parser.h */,
+			);
+			path = ApiRequest;
+			sourceTree = "<group>";
+		};
+		CD4CA59027ECF2680029DFB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F096027EB947D007F3D10 /* MovieDetails */,
+				CD4CA57227EBC5ED0029DFB2 /* MovieList */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,12 +268,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4CA58827ECEBEA0029DFB2 /* Api.m in Sources */,
+				CD4CA57627EBC67C0029DFB2 /* TableViewCell.m in Sources */,
 				CD3F095E27EA4B82007F3D10 /* Movie.m in Sources */,
 				CD3F094627EA424F007F3D10 /* ViewController.m in Sources */,
+				CD4CA58E27ECF20E0029DFB2 /* Parser.m in Sources */,
+				CD4CA57827ECD9D90029DFB2 /* Genre.m in Sources */,
 				CD3F095827EA44A1007F3D10 /* DetailsViewController.m in Sources */,
+				CD4CA58327ECE5B70029DFB2 /* TableViewCellOverViewDetails.m in Sources */,
 				CD3F094027EA424F007F3D10 /* AppDelegate.m in Sources */,
 				CD3F095127EA4250007F3D10 /* main.m in Sources */,
 				CD3F094327EA424F007F3D10 /* SceneDelegate.m in Sources */,
+				CD4CA57F27ECE2D90029DFB2 /* TableViewCellTitleDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
