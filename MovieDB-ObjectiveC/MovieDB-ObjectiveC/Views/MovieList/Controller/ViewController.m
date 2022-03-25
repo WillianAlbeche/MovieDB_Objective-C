@@ -162,7 +162,7 @@
        //     [self.api fetchMovieDetails:movie];
       //  } else {
  //           [self performSegueWithIdentifier:@"ShowMovie" sender:movie];
-            UIViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailsViewControllerID"];
+        DetailsViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailsViewControllerID2"];
     [self.navigationController pushViewController:vc animated:YES];
       //  }
     }

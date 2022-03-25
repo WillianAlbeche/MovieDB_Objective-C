@@ -10,5 +10,6 @@
 @interface ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @property(strong, nonatomic) IBOutlet UITableView *myTableView;
+
 @end
 

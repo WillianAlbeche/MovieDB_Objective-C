@@ -12,7 +12,9 @@
 
 @class Movie;
 @interface TableViewCellOverViewDetails : UITableViewCell
+
 @property (weak, nonatomic) IBOutlet UILabel *overviewCell;
+
 @property (nonatomic) Movie* movie;
 @end
 

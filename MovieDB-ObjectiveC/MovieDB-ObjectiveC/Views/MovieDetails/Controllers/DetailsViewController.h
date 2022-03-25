@@ -11,9 +11,6 @@
 
 
 @interface DetailsViewController : UIViewController
-
-
-
 @property (weak, nonatomic) IBOutlet UITableView *myTableView;
 
 
