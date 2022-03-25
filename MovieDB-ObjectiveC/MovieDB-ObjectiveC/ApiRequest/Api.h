@@ -23,7 +23,7 @@ typedef NS_ENUM(NSInteger, FetchOption){
 
 -(void)fetchMovieList: (FetchOption) option;
 -(void)fetchMovieDetails: (Movie*)movie;
--(void)searchMovieWith: (NSString*)keywords;
+//-(void)searchMovieWith: (NSString*)keywords;
 
 @end
 

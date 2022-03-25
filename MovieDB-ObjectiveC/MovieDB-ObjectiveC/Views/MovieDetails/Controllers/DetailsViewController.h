@@ -8,7 +8,14 @@
 #ifndef DetailsViewController_h
 #define DetailsViewController_h
 #import <UIKit/UIKit.h>
+
+
 @interface DetailsViewController : UIViewController
+
+
+
+@property (weak, nonatomic) IBOutlet UITableView *myTableView;
+
 
 @end
 #endif /* DetailsViewController_h */

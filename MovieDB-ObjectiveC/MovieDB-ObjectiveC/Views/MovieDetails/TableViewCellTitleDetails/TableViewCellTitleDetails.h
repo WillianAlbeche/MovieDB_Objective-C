@@ -15,7 +15,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageCell;
 @property (weak, nonatomic) IBOutlet UILabel *titleCell;
 @property (weak, nonatomic) IBOutlet UILabel *genreCell;
-@property (weak, nonatomic) IBOutlet UILabel *ratingCell;
 @property (nonatomic) Movie* movie;
 
 //-(void)populateCellWithMovie:(Movie*)movie;

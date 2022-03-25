@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "DetailsViewController.h"
+#import "Movie.h"
 
 @interface DetailsViewController ()
 
@@ -14,6 +15,10 @@
 
 @implementation DetailsViewController 
 
+- (void) viewDidLoad {
+    [super viewDidLoad];
+    
+}
 
 
 @end
